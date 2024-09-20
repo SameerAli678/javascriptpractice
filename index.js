@@ -126,31 +126,48 @@
 // sam = Number.parseInt(sam);
 
 // if (number === sam) {
-  // alert("true");
+// alert("true");
 // } else {
-  // alert("try again because right asnwer is " + number);
-  // window.location.reload();
+// alert("try again because right asnwer is " + number);
+// window.location.reload();
 // }
 
 // let write = confirm("write" )
 // if (write ){
 //   console.log("thanks");
-  
+
 // }else{
 //   console.log("click ok ");
-  
+
 // }
 // console.log(window);
 // console.log(document);
-document.body.style.background ="yellow" 
-let a  = 5
-let b = 6
+//  let runAgain = true ;
+// document.body.style.background ="black"
+// const canDrive = (age) => {
+//   return age >=18 ? true : false
+// }
+// while(runAgain){
+// let age =prompt("enter your age")
+// age = Number.parseInt(age)
+// if(age<0){
+//   alert(" please enter a valid age   ")
+//   break;
 
-
-
-
-
-console.log(a+b );
-
-
-
+// }
+// if(canDrive(age)){
+//   alert("you can drive ")
+// }
+// else{
+//   alert("you cannot drive ")
+// }
+//  runAgain = confirm ("do you want to play again?")
+// }
+let sam = prompt("enter your roll num");
+sam = Number.parseInt(sam);
+if (sam > 4) {
+  location.href = "https://codewithharry.com";
+}
+// console.log(location.href);
+// let sam = prompt("enter your favourite colour ");
+// document.body.style.background = sam
