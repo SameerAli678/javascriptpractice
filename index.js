@@ -39,7 +39,6 @@
 
 //  for (let i = 0; i < roll_10.length; i++) {
 //   console.log(roll_10 [i]);
-
 //  }
 //   let n = num.toString(
 
@@ -163,11 +162,64 @@
 // }
 //  runAgain = confirm ("do you want to play again?")
 // }
-let sam = prompt("enter your roll num");
-sam = Number.parseInt(sam);
-if (sam > 4) {
-  location.href = "https://codewithharry.com";
-}
+// let sam = prompt("enter your roll num");
+// sam = Number.parseInt(sam);
+// if (sam > 4) {
+// location.href = "https://codewithharry.com";
+// }
 // console.log(location.href);
 // let sam = prompt("enter your favourite colour ");
 // document.body.style.background = sam
+// console.log(document.body);
+
+// let a = setTimeout(function (){
+//  alert("Hello")
+// }, 5000)
+// let b = prompt("do you want to run settimeout")
+//   if ("n" == b){
+//     clearTimeout(a)
+//   }
+
+// console.log(a);
+// const sam = (a, b) => {
+// a + b;
+// };
+// setInterval(sum, 5000, 1, 12);
+// setTimeout(sum, 1000 ,1 ,3 );
+
+// setInterval(sum, 5000, 1 + 3);
+// console.log(sum);
+
+// digital watch
+ const clock = document.getElementById("clock")
+ 
+  setInterval(function()  {
+    const date = new Date ();
+    
+    const h = date.getHours ();
+    const mi = date.getMinutes ();
+    const s = date. getSeconds();
+    const m = date .getMonth ();
+
+    const session = h >= 11 ?  " AM " : "PM";
+    const timer = h +":" + mi + ":" + s +":" +session + m;
+    // document.write (date);
+    clock.innerHTML = timer;
+
+
+  }, 1000);
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
