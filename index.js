@@ -11,7 +11,7 @@
 
 //  let marks = {
 //     sameerali: 100,
-//     forkan: 20,
+// forkan: 20,
 //     mursaleen: 5
 // };
 // console.log(marks);
@@ -32,7 +32,7 @@
 
 // }
 //   console.log("correct roll");
-// let  num  = [1,2,3,4,5,6,7,8,9,10]
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //  console.log(roll_of_class_10
 // console.log(roll_10 [8]);
 // console.log(roll_10 [9]);
@@ -72,7 +72,7 @@
 // num.sort( compere)
 // //  console.log(num);
 //  num.reverse()
-//  console.log(num1);
+//  console.log(num);
 //  num.splice(2 ,4,35 ,45 ,55, 65,)
 //  console.log(num);
 // let newnum = num1.slice (2)
@@ -191,35 +191,139 @@
 // console.log(sum);
 
 // digital watch
- const clock = document.getElementById("clock")
- 
-  setInterval(function()  {
-    const date = new Date ();
-    
-    const h = date.getHours ();
-    const mi = date.getMinutes ();
-    const s = date. getSeconds();
-    const m = date .getMonth ();
+//  const clock = document.getElementById("clock")
 
-    const session = h >= 11 ?  " AM " : "PM";
-    const timer = h +":" + mi + ":" + s +":" +session + m;
-    // document.write (date);
-    clock.innerHTML = timer;
+//   setInterval(function()  {
+//     const date = new Date ();
 
+//     const h = date.getHours ();
+//     const mi = date.getMinutes ();
+//     const s = date. getSeconds();
+//     const m = date .getMonth ();
 
-  }, 1000);
-  
-  
+//     const session = h >= 11 ?  " AM " : "PM";
+//     const timer = h +":" + mi + ":" + s +":" +session + m;
+//     // document.write (date);
+//     clock.innerHTML = timer;
 
+//   }, 1000);
 
-  
+// let p1 = new Promise((resolve, reject) => {
+// setTimeout(() => {
+// resolve("value 1");
+// reject(console.error())
+// }, 1000);
+// });
+// p1.then ( (value)=>{
+//   console.log(value);
 
+// });
 
+// let p2 = new Promise((resolve, reject) => {
+// setTimeout(() => {
+// resolve("value 2");
+// reject(console.error())
+// }, 2000);
+// });
+// let p4 = new Promise((resolve, reject) => {
+// setTimeout(() => {
+// resolve("value 3");
+// reject(console.error())
+// }, 9000);
+// });
+// p2.then ( (value)=>{
+//   console.log(value);
 
+// });
+// let p3 = Promise.allSettled([p1, p2, p4])
+// p3.then((value) => {
+// console.log(value);
+// });
+//  p3.catch((error)=>{
+//   console.log(error);
 
+//  })
 
+// {/* <script>
+//     var s'kip = 0;
+//     async function fetchData() {
+//         const api = https://dummyjson.com/products?limit=${10}&skip=${skip};
+//         try {
+//             const response = await fetch(api);
+//             const data = await response.json();
+//             return data;
+//         } catch (error) {
+//             console.error("Error fetching data:", error);
+//         }
+//     }
+//     let clicked = -1
 
+//     const addMore = () => {
+//         clicked = clicked + 1
+//         console.log("🚀 ~ addMore ~ clicked:", clicked)
 
+//         skip = clicked == 0 ? 0 : skip + 10;
+//         fetchData().then((data) => {
+//             console.log("🚀 ~ fetchData ~ data:", data)
+//             console.log("🚀 ~ fetchData ~ data:", data.products[3].title)
+//             Card.innerHTML = ''
+//             for (let i = 0; i < data.products.length; i++) {
+//                 Card.innerHTML += <div class="card">
+//                                     <img src='${data.products[i].thumbnail}' alt="" id="img">
+//                                     <h2 id="title">${data.products[i].title}</h2>
+//                                     <p id="title">${data.products[i].id}</p>
+//                                 </div>
+//             }
+//         });
+//     }
 
+//     var Card = document.getElementById("app");
 
+//     addMore()
 
+// </script> */}
+
+// // (async , await)
+// async function sameer(params) {
+
+//    }
+
+// }
+// '
+
+// let a = "jhvghcgh";
+
+// console.log("🚀 ~ a.split():", a.split(" "));
+// function profesion(name) {
+//   let nam = ["sameer ali"];
+//   if (name) {
+//     nam.reverse();
+//   }
+//   // else{nam
+
+//   // }
+//   console.log(nam);
+// }
+// let sam = "sameer";
+
+// let newarray = Array.from(sam ).reverse().join("")
+// newarray.reverse();
+// console.log(newarray);/
+
+//    function work(ali){
+//     if (ali == sam) {
+//         newarray.reverse;
+
+//     }
+//     sam.reverse;
+//    }
+//    console.log(newarray);
+
+// console.log(newarray);
+// function convertPkrToDollar(pkr) {
+//   const exchangeRate = 277.65; // 1 USD = 278.5 PKR (as of September 2023)
+//   const dollars = pkr / exchangeRate;
+//   return dollars.toFixed(2); // Round to 2 decimal places
+// }
+// let $ = prompt("Enter your amount in PKR");
+// let dollarAmount = convertPkrToDollar($);
